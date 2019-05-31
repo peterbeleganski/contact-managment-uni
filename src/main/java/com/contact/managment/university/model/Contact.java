@@ -21,6 +21,6 @@ public class Contact {
 
     private String phoneNumber;
 
-    private LocalDateTime dateCreated;
+    private LocalDateTime dateCreated = LocalDateTime.now();
 
 }
